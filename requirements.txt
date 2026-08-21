@@ -1,0 +1,26 @@
+# Autonomous Spreadsheet Import Agent — Dependencies
+
+# ---------------------------------------------------------------------------
+# Core agent infrastructure
+# ---------------------------------------------------------------------------
+groq>=0.9.0                      # Groq SDK (OpenAI-compatible, tool-calling support)
+mcp>=1.0.0                       # Official MCP Python SDK (FastMCP + stdio client/server)
+python-dotenv>=1.0.0             # .env loading
+
+# ---------------------------------------------------------------------------
+# CSV generation
+# ---------------------------------------------------------------------------
+faker>=24.0.0                    # Realistic fake data (names, emails, departments)
+
+# ---------------------------------------------------------------------------
+# Google Sheets + Drive
+# ---------------------------------------------------------------------------
+google-api-python-client>=2.100.0
+google-auth>=2.23.0
+google-auth-httplib2>=0.2.0
+
+# ---------------------------------------------------------------------------
+# Testing
+# ---------------------------------------------------------------------------
+pytest>=8.0.0
+pytest-asyncio>=0.23.0          # async test support for planner tests

@@ -2,6 +2,8 @@
 
 > **One command. CSV → LibreOffice Calc → Google Sheets. Fully autonomous.**
 
+[📺 Watch the Demo Video](https://youtu.be/dGj-qvLRLiQ)
+
 An AI-powered agent that generates realistic employee CSV data, imports it into a local spreadsheet application, and uploads it to Google Sheets — all from a single natural-language prompt. No Microsoft Excel license needed: this project uses **LibreOffice Calc** (free, open-source) which reads and writes `.xlsx`, `.csv`, and `.ods` files identically to Excel.
 
 ---

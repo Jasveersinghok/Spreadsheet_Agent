@@ -362,7 +362,7 @@ pytest tests/ -v
 
 ## 💬 Example Prompts
 
-### Primary prompt *(used in the demo video)*
+### Primary prompt 
 
 ```
 Create a sample employee CSV and import it into LibreOffice Calc and Google Sheets.
@@ -442,6 +442,3 @@ All values are set via environment variables in `.env`:
 
 ---
 
-## 📜 License
-
-This project was built as an assessment submission.
